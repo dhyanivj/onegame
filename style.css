@@ -1,0 +1,122 @@
+html {
+  scroll-behavior: smooth;
+}
+.section {
+  height: 800px;
+  padding: 53px;
+}
+.background-colour {
+  background-color: powderblue;
+  padding: 10px;
+}
+#intro {
+  background-image: url("./images/computer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+}
+#nav-list {
+  display: flex;
+  list-style-type: none;
+  margin-top: 5px;
+}
+#nav-list li {
+  margin: 0 10px;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 600;
+  color: black;
+}
+#content {
+}
+.flex-layout {
+  display: flex;
+}
+
+.flex-right {
+  padding: 50px;
+}
+
+.flex-layout .icon-style {
+  font-size: 50px;
+  margin-right: 20px;
+  color: red;
+}
+.center {
+  text-align: center;
+  justify-content: center;
+}
+.project-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.project-item {
+  box-shadow: 5px 5px 30px deepskyblue;
+  margin: 25px;
+  padding: 40px;
+}
+.skills-item {
+  padding: 30px;
+  margin: 10px;
+  box-shadow: 5px 5px 15px deepskyblue;
+}
+
+.skills-list {
+  display: flex;
+  text-align: center;
+}
+
+.progress {
+  height: 10px !important;
+}
+
+#exp {
+  padding: 100px;
+}
+
+#exp-content {
+  display: flex;
+  padding: 20px;
+}
+#contact {
+  padding-top: 50px !important;
+  height: max-content;
+}
+.icon-style-contact {
+  font-size: 150px;
+  padding: 20px !important;
+  justify-content: space-evenly;
+  color: red;
+}
+
+.duck {
+  width: 25em;
+  height: 25em;
+  margin: 5em 8em;
+}
+.aboutmetext {
+  width: 25em;
+}
+#projects {
+  height: max-content;
+}
+#skills {
+  height: 100%;
+}
+.messi {
+  margin: 6em 0;
+}
